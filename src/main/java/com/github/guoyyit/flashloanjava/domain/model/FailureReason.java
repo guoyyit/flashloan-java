@@ -1,0 +1,16 @@
+package com.github.guoyyit.flashloanjava.domain.model;
+
+public enum FailureReason {
+    INVALID_REQUEST,
+    POOL_NOT_FOUND,
+    CURRENCY_NOT_FOUND,
+    LOAN_LIMIT_EXCEEDED,
+    STEP_LIMIT_EXCEEDED,
+    INVALID_AMOUNT,
+    INVALID_OPERATION,
+    INSUFFICIENT_POOL_BALANCE,
+    INSUFFICIENT_REPAYMENT,
+    REPAYMENT_SURPLUS,
+    EXECUTION_TIMEOUT,
+    UNKNOWN_ERROR
+}
